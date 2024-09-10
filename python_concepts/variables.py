@@ -1,4 +1,4 @@
-# variables can be named with lower or upper case letters, numbers
+# variables can be named with lower or upper case letters
 
 cars = 21
 CARS = 22

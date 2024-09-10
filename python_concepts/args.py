@@ -1,6 +1,6 @@
 # Positional Arguments - the arguments are passed to a function in a specific order
 def user_info(name, age, city):
-    # This function prints name, age and city from an argument provided to the function
+    # This function prints the name, age and city from an argument provided to the function
 
     print("{} is {} years old from {}".format(name, age, city))
 
