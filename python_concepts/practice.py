@@ -1,3 +1,9 @@
+"""
+Functions
+
+"""
+
+
 def days_of_the_week():
     a = input("What is the first day of the week? ")
 
@@ -43,8 +49,35 @@ def numbers():
         print("{} is not equal to {} ".format(a, b))
 
 
-numbers()
+# numbers()
 
+"""
+Lists
+"""
+
+data = ["Mojisola", 24, 29, "April"]
+print(data)
+
+# Insert "Otusheso" after "Mojisola" (at index 1)
+data.insert(1, "Otusheso")
+print(data)
+
+data.append("2000")
+print(data)
+
+print("Mojisola" in data)
+print(data.count(24))
+
+# Loop through the list and print only the integers
+for item in data:
+    if isinstance(item, int):
+        print(item)
+
+
+# Loop through the list and print only the strings
+for item in data:
+    if isinstance(item, str):
+        print(item)
 
 
 
