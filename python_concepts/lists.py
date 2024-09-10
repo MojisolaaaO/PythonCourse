@@ -43,7 +43,7 @@ print(numbers)
 # the "in" function allows us to check membership in a list. The result is either True or FaLse
 print("grapes" in fruits)
 
-# the "count" function allows us to check membership and number of items in the list
+# the "count" function allows us to check membership and the number of times the item appears in the list
 print(fruits.count("grapes"))
 
 
