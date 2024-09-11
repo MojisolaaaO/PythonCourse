@@ -31,7 +31,7 @@ print(fruits)
 fruits.pop(0)
 print(fruits)
 
-# to remove the last item but do not know the length of thr list, use negative indexing
+# to remove the last item but do not know the length of the list, use negative indexing
 fruits.pop(-1)
 print(fruits)
 
