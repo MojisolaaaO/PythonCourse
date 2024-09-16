@@ -46,7 +46,6 @@ print("grapes" in fruits)
 # the "count" function allows us to check membership and the number of times the item appears in the list
 print(fruits.count("grapes"))
 
-
 # the "index" function allows us to check the membership and index of an item in a list
 print(fruits.index("pineapple"))
 

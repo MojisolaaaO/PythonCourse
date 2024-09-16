@@ -1,13 +1,54 @@
 """
 Dictionaries are a type of pyton data collection that store
-the data in key value pairs
+data in key value pairs
 
 the keys are made of strings, integers or tuples and need to be both
-unique and mutable
+unique and mutable (can be changed)
 
 the values can be set to any data types
 any number of key value pairs can be contained in the dictionary
-an empty dictionary is made by assigning a dic name with nothing in the curly braces [}
 
+an empty dictionary is made by assigning a dict name with nothing in the curly braces {}
 
+syntax: curly braces contain keys and values, the keys and values
+are separated by a colon
 """
+
+Food = {"pizza": 10, "pasta": 15, "cookies": 20}
+
+# the "get" method returns the value of one of the keys in the dictionary
+print(Food.get("pizza"))
+
+# the "items" method takes the dictionary name and outputs the key value pairs
+print(Food.items())
+
+# the "keys" method returns the keys in the dictionary
+print(Food.keys())
+
+# the "popitem" method removes the last item in the dictionary
+print(Food.popitem())
+print(Food)
+
+'''
+the "setdefault" method shows what the value of a key in a dictionary is and
+allows us to set a default value when a key is not in the dictionary and add that value to the dictionary
+'''
+
+print(Food.setdefault("pizza"))
+print(Food)
+print(Food.setdefault("cake", 30))
+print(Food)
+
+# the "update" method is used to update the dictionary with another dictionary
+restaurants = {"chinese": 20, "italian": 30}
+Food.update(restaurants)
+print(Food)
+
+# updating the values
+restaurants = {"chinese": 15, "italian": 10}
+Food.update(restaurants)
+print(Food)
+
+# adding items using the update method
+Food.update(pizza=20)
+print(Food)
