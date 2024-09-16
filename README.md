@@ -1,1 +1,1 @@
-This repository contains all the code I develop while taking a Python course for test automation, serving as both a portfolio of my work and a resource for others learning about test automation.
+This repository contains all the code I develop while taking a Python for Test Automation course by Test Automation University, serving as both a portfolio of my work and a resource for others learning about test automation.

@@ -1,18 +1,4 @@
-"""
-Dictionaries are a type of pyton data collection that store
-data in key value pairs
 
-the keys are made of strings, integers or tuples and need to be both
-unique and mutable (can be changed)
-
-the values can be set to any data types
-any number of key value pairs can be contained in the dictionary
-
-an empty dictionary is made by assigning a dict name with nothing in the curly braces {}
-
-syntax: curly braces contain keys and values, the keys and values
-are separated by a colon
-"""
 
 Food = {"pizza": 10, "pasta": 15, "cookies": 20}
 
