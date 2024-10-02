@@ -35,7 +35,7 @@ class Person:
         # If health is 70 or more but less than 100, the person is tired
         elif self.health >= 70:
             print("{} is a little tired today".format(self.firstname))
-        # If health is 50 or less but more than 30, the person feels unwell
+        # If health is 50 or less, the person feels unwell
         elif self.health <= 50:
             print("{} feels unwell".format(self.firstname))
         # If health is 0, the person is unconscious
