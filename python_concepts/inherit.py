@@ -47,11 +47,15 @@ Diana = Person("Diana", "Jones", 100, True)  # Diana is a friend and has full he
 Daisy = Person("Daisy", "Brown", 75, False)  # Daisy is not a friend and is a bit tired
 Jason = Person("Jason", "White", 55, True)  # Jason is a friend and feels unwell
 
+Diana.introduce()
 
 class Enemy(Person):
     def __init__(self, weapon, firstname, lastname, health, status):
         super().__init__(firstname, lastname, health, status)
         self.weapon = weapon
+
+    def introduce(self):
+        print("You are my mortal enemy!!!")
 
     def hurt(self, other):
         if self.weapon == 'rock':
@@ -76,3 +80,5 @@ class Enemy(Person):
 Alex = Enemy('rock', 'Alex', 'Jones', 75, True)
 
 Alex.hurt(Diana)  # Diana's health should reduce by 10
+
+Alex.introduce()
