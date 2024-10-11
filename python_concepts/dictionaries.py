@@ -1,5 +1,3 @@
-
-
 Food = {"pizza": 10, "pasta": 15, "cookies": 20}
 
 # the "get" method returns the value of one of the keys in the dictionary

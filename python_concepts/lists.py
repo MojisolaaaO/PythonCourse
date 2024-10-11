@@ -1,12 +1,3 @@
-"""
-Lists are a collection of data
-Lists can contain any/all data types in a single list
-Lists can contain other collections (lists, dictionaries, tuples) as list items
-Lists are mutable (items can be added, removed, changed)
-Lists maintain order (an index can be used find an item)
-
-"""
-
 fruits = ["apples", "pears", "grapes"]
 years = [3, "2000", 4.5, 900, "2024"]
 

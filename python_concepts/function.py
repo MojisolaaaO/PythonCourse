@@ -1,6 +1,3 @@
-# A function is a unit of code that can be reused throughout a program
-# Functions provide reusability and modularity
-
 # the body of the function is indented in 4 spaces
 # put two lines between the end of a function and beginning of the next one
 def add():
