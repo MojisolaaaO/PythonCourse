@@ -49,6 +49,19 @@ print(fruits.count("grapes"))
 # the "index" function allows us to check the membership and index of an item in a list
 print(fruits.index("pineapple"))
 
+# prints the length of the list
+print(len(fruits))
 
+# reverses the order of the list
+fruits.reverse()
+print(fruits)
+
+# returns a copy of the list
+fruits.copy()
+print(fruits)
+
+# removes all items from the list
+fruits.clear()
+print(fruits)
 
 
